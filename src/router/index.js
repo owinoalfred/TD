@@ -6,6 +6,7 @@ import Tools from '../views/Tools.vue'
 import Services from '../views/Services.vue'
 
 
+
 const routes = [
   {
     path: '/',
