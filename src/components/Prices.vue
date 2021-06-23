@@ -11,7 +11,7 @@
                     <h3 class="text-center font-bold text-4xl mb-5">500,000</h3>
                     <ul class="text-sm px-5 mb-8">
                         <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> </li>
-                        <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> Dolor sit amet</li>
+                        <li class="leading-tight"><i class="mdi mdi-check-bold text-lg"></i> For a simple website that is mainly for adverts and not much interaction with Customers</li>
                     </ul>
                 </div>
                 <div class="w-full">
