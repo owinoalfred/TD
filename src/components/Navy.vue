@@ -1,5 +1,5 @@
 <template>
-<div class=" bg-white opacity-1">
+<div class=" bg-white w-full opacity-1">
   <div class="">
 <nav>
   <router-link to ='/'> <button type="" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 border-b-4 onborder-blue-700 hover:border-blue-500 rounded">Home</button></router-link>
@@ -12,4 +12,4 @@
 </nav>
   </div>
   </div>
-</template>s
+</template>
