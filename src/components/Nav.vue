@@ -1,6 +1,7 @@
 <template>
-  <div class="mt-0 rounded-lg py-2 float-right ">
-    <button class="text-white block focus:outline-none hover:text-white" type="button">
+  <div class="mt-0 rounded-lg py-2 float-right overflow-hidden ">
+
+    <button @click="isOpen = !isOpen" class="text-white block focus:outline-none hover:text-white" type="button">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48"
@@ -35,7 +36,23 @@
       </svg>
     </button>
   </div>
+  <div :class=" isOpen ? 'block' : 'hidden'" class="px-4 bg-gray-500 py-3">
+      <a href="#" class="block py-1 px-2  hover:bg-gray-400 rounded text-gray-800 font-semibold">Home</a>
+      <a href="#" class="block py-1 px-2 mt-1  hover:bg-gray-400 rounded text-gray-800 font-semibold">Services</a>
+      <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Pricing</a>
+      <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold" >Team</a>
+      <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Team</a>
+      <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Tools</a>
+      <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">FAQ</a>
+      <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">About</a>
+  </div>
 </template>
 <script>
-export default {};
+export default {
+    data() {
+        return {
+            isOpen:false,
+        }
+    },
+};
 </script>

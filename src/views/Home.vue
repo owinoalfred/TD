@@ -1,8 +1,8 @@
 <template>
   <div class="min-w-30">
     <Upper />
-    <Nav />
     <Navy />
+     <Nav />
     <Bodydata />
     <Lowerbody />
     <Footer />
