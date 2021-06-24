@@ -4,7 +4,6 @@
   <Upper />
   <Navy />
   <Bodydata />
-
   <Lowerbody />
   <Footer />
   </div>
