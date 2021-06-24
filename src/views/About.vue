@@ -1,7 +1,6 @@
 <template>
 <main class="font-sans bg-white">
 <Upper />
-    <Nav />
     <div>
         <header class="bg-white shadow border-t-4 border-indigo-600">
             <div class="container mx-auto px-6 py-4">
@@ -201,12 +200,12 @@
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue'
+
 import Footer from '@/components/Footer.vue'
 import Upper from '@/components/Upper.vue'
 export default {
     components: {
-        Nav,Footer,Upper
+    Footer,Upper
     }
 
 }
