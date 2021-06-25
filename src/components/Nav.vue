@@ -37,7 +37,7 @@
     </button>
   </div>
   <div :class=" isOpen ? 'block' : 'hidden'" class="px-4 bg-gray-500 py-3">
-    <router-link to = ''> <a href="#" class="block py-1 px-2  hover:bg-gray-400 rounded text-gray-800 font-semibold">Home</a></router-link>
+    <router-link to = ''> <a class="block py-1 px-2  hover:bg-gray-400 rounded text-gray-800 font-semibold">Home</a></router-link>
       <router-link to = ''><a href="#" class="block py-1 px-2 mt-1  hover:bg-gray-400 rounded text-gray-800 font-semibold">Services</a></router-link>
      <router-link to = ''> <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Pricing</a></router-link>
      <router-link to = ''> <a href="#" class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold" >Team</a></router-link>
