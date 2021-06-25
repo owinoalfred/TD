@@ -1,7 +1,8 @@
 <template>
     <div>
     <Upper />
-<Navy />
+    <Navy />
+     <Nav />
 <Teams />
 <Footer />
     </div>

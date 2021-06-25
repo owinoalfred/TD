@@ -1,7 +1,8 @@
 <template>
 <div>
- <Upper />
+<Upper />
     <Navy />
+     <Nav />
     <h1>
         Tools coming soon
     </h1>

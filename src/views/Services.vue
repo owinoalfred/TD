@@ -1,7 +1,8 @@
 <template>
 <div>
-   <Upper />
+  <Upper />
     <Navy />
+     <Nav />
     <h1>
         Services coming soon
     </h1>
@@ -13,12 +14,14 @@
 import Footer from '@/components/Footer.vue'
 import Navy from '@/components/Navy.vue'
 import Upper from '@/components/Upper.vue'
+import Nav from '@/components/Nav.vue'
 
 export default {
     name: 'Services',
     components: {
         Footer,
         Navy,
-        Upper  }
+        Upper,
+        Nav  }
 }
 </script>
