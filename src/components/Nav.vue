@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-0 rounded-lg py-2 float-right overflow-hidden ">
+  <div class="mt-0 rounded-lg py-2 float-right overflow-hidden absolute top-0 right-0">
 
     <button @click="isOpen = !isOpen" class="text-white block focus:outline-none hover:text-white" type="button">
       <svg
