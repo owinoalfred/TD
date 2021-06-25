@@ -37,14 +37,13 @@
     </button>
   </div>
   <div :class=" isOpen ? 'block' : 'hidden'" class="px-4 bg-gray-500 py-3">
-    <router-link to = ''> <a class="block py-1 px-2  hover:bg-gray-400 rounded text-gray-800 font-semibold">Home</a></router-link>
-      <router-link to = ''><a class="block py-1 px-2 mt-1  hover:bg-gray-400 rounded text-gray-800 font-semibold">Services</a></router-link>
-     <router-link to = ''> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Pricing</a></router-link>
-     <router-link to = ''> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold" >Team</a></router-link>
-     <router-link to = ''> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Team</a></router-link>
-     <router-link to = ''> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Tools</a></router-link>
-     <router-link to = ''> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">FAQ</a></router-link>
-    <router-link to = ''>  <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">About</a></router-link>
+    <router-link to = '/'> <a class="block py-1 px-2  hover:bg-gray-400 rounded text-gray-800 font-semibold">Home</a></router-link>
+      <router-link to = '/services'><a class="block py-1 px-2 mt-1  hover:bg-gray-400 rounded text-gray-800 font-semibold">Services</a></router-link>
+     <router-link to = '/Pricing'> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Pricing</a></router-link>
+     <router-link to = '/team'> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold" >Team</a></router-link>
+     <router-link to = 'tools'> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Tools</a></router-link>
+     <router-link to = 'FAQ'> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">FAQ</a></router-link>
+    <router-link to = 'about'>  <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">About</a></router-link>
   </div>
 </template>
 <script>
