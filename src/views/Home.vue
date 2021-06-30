@@ -6,6 +6,8 @@
     <Bodydata />
     <Lowerbody />
     <Footer />
+    <Down />
+
   </div>
 </template>
 
@@ -17,6 +19,8 @@ import Lowerbody from "@/components/Lowerbody.vue";
 import Navy from "@/components/Navy.vue";
 import Upper from "@/components/Upper.vue";
 import Nav from "@/components/Nav.vue";
+import Down from "@/components/Down.vue";
+
 
 export default {
   name: "Home",
@@ -27,6 +31,7 @@ export default {
     Navy,
     Lowerbody,
     Upper,
+    Down
   },
 };
 </script>
