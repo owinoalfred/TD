@@ -22,7 +22,7 @@
                             <h2 class="flex items-baseline justify-center mt-5"> Start up pack for a free lancer with a small firm. Package comes with;</h2>
                             <p class="my-4 text-base leading-relaxed ">
 
-                               <ul class="list-disc list-outside">
+                               <ul class="list-disc text-left">
                                    <li>free domain name</li>
                                    <li>free updates every fortnight</li>
                                    <li>Money back guarantee</li>

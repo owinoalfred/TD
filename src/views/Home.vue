@@ -1,5 +1,5 @@
 <template>
-  <div class="min-w-30">
+
     <Upper />
     <Navy />
      <Nav />
@@ -8,7 +8,6 @@
     <Footer />
     <Down />
 
-  </div>
 </template>
 
 <script>
