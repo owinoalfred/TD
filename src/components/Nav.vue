@@ -44,6 +44,8 @@
      <router-link to = 'tools'> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Tools</a></router-link>
      <router-link to = 'FAQ'> <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">FAQ</a></router-link>
     <router-link to = 'about'>  <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">About</a></router-link>
+    <router-link to = 'promos'>  <a  class="block py-1 px-2 mt-1 hover:bg-gray-400 rounded text-gray-800 font-semibold">Promos</a></router-link>
+
   </div>
 </template>
 <script>

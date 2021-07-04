@@ -9,6 +9,8 @@
   <router-link to ='/tools'> <button type="" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 border-b-4 onborder-blue-700 hover:border-blue-500 rounded">Tools</button></router-link>
   <router-link to ='/FAQ'> <button type="" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 border-b-4 onborder-blue-700 hover:border-blue-500 rounded">FAQ</button></router-link>
   <router-link to ='/about'> <button type="" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 border-b-4 onborder-blue-700 hover:border-blue-500 rounded">About</button></router-link>
+  <router-link to ='/Promos'> <button type="" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 border-b-4 onborder-blue-700 hover:border-blue-500 rounded">Promos</button></router-link>
+
 </nav>
   </div>
 
