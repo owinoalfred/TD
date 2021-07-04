@@ -4,10 +4,10 @@
 
 
 <div >
-    <h1>
+    <h1 class="text-base">
     TECHY-GUY
     </h1>
-    <p>
+    <p class="text-xs">
         We create possibilities for a better web look
     </p>
     <h3 class="">
@@ -19,10 +19,10 @@
 <br />
 <div class="flex">
  <div>
-     <h3>
+     <h1 class="text-base">
          Explore
-     </h3>
-     <ul>
+     </h1>
+     <ul class="text-xs">
          <li><a href="/">Home</a></li>
          <li><a href="/Pricing">Prices</a></li>
          <li><a href="/Promos">Promos</a></li>
@@ -31,10 +31,10 @@
      </ul>
  </div>
  <div class="ml-20">
-     <h3>
+     <h1 class="text-base">
          Contact us
-     </h3>
-     <ul>
+     </h1>
+     <ul class="text-xs">
          <li><a href=""><img class='h-5' src="../../dist/img/facebook.png" alt=""></a></li>
          <li><a href=""><img class='h-5' src="../../dist/img/twitter.png" alt=""></a></li>
          <li><a href=""><img class='h-5' src="../../dist/img/whatsapp.png" alt=""></a></li>
@@ -49,10 +49,10 @@
     ideas
 </h1>
 
-<h3>
+<h1 class="sm:text-xs">
     propose ideas
-</h3>
-<h3>
+</h1>
+<h3 class="sm:text-xs">
    help translate this page to your Language
 </h3>
 </div>
