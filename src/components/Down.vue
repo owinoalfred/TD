@@ -1,28 +1,33 @@
 <template>
-<div class=" w-screen  text-white bg-black">
+<div class=" w-screen divide-x  bg-black">
     <div class="ml-1">
 
 
-<div >
-    <h1 class="text-base">
+<div>
+    <div class="justify-center">
+
+    <h1 class="text-base text-white">
     TECHY-GUY
     </h1>
-    <p class="text-xs">
+    </div>
+    <div>
+    <p class="text-xs text-gray-500">
         We create possibilities for a better web look
     </p>
-    <h3 class="">
+    <h3 class="text-gray-500">
         stand out
     </h3>
+    </div>
  </div>
-<br />
-<hr>
-<br />
-<div class="flex">
+
+
+
+<div class="flex justify-center">
  <div>
-     <h1 class="text-base">
+     <h1 class="text-base text-white">
          Explore
      </h1>
-     <ul class="text-xs">
+     <ul class="text-xs text-gray-500">
          <li><a href="/">Home</a></li>
          <li><a href="/Pricing">Prices</a></li>
          <li><a href="/Promos">Promos</a></li>
@@ -31,7 +36,7 @@
      </ul>
  </div>
  <div class="ml-20">
-     <h1 class="text-base">
+     <h1 class="text-base text-white">
          Contact us
      </h1>
      <ul class="text-xs">
@@ -41,18 +46,18 @@
      </ul>
  </div>
 </div>
-<br />
-<hr>
-<br />
+
+
+
 <div>
-<h1>
+<h1 class="text-white">
     ideas
 </h1>
 
-<h1 class="sm:text-xs">
+<h1 class="text-xs text-gray-500">
     propose ideas
 </h1>
-<h3 class="sm:text-xs">
+<h3 class="text-xs text-gray-500">
    help translate this page to your Language
 </h3>
 </div>
