@@ -82,7 +82,7 @@
         >
           <img
             class="mr-2 h-6 w-auto"
-            src="/sidebar/bmc.svg"
+            src=""
             alt="Buy Me Coffee"
           />
           <p class="font-bold">
