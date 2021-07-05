@@ -4,6 +4,7 @@ import Pricing from '../views/Pricing.vue'
 import Team from '../views/Team.vue'
 import Tools from '../views/Tools.vue'
 import Services from '../views/Services.vue'
+import Trial from '../views/Trial.vue'
 
 
 
@@ -32,6 +33,11 @@ const routes = [
     path: '/Tools',
     name: 'Tools',
     component: Tools
+  },
+  {
+    path: '/Trial',
+    name: 'Trial',
+    component: Trial
   },
 
   {
