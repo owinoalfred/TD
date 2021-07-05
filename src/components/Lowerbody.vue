@@ -1,15 +1,15 @@
 <template>
 
-<section class="text-gray-700 text-center">
+<section class="text-gray-700 bg-gray-300 text-center">
 
-            <div class="container px-8 pt-24 mx-auto lg:px-4 ">
+            <div class="container px-8 pt-10 mx-auto lg:w-30   lg:px-4 ">
                 <div class="">
-          This global pandemic has dismissed any bias that many have towards a acquiring a website, for many, business resumed as normal, and one of their secrets,..... a website.
+                   This global pandemic has dismissed any bias that many have towards a acquiring a website, for many, business resumed as normal, and one of their secrets,..... a website.
                 </div>
 
-                <div class="py-10 font-bold  ">
-      <h3>Check out Our Affordable Prices</h3>
-      </div>
+                      <div class="py-10 font-bold  ">
+                         <h3>Check out Our Affordable Prices</h3>
+                       </div>
                 <div class="flex flex-wrap">
                     <div class="px-8 py-6 mx-auto lg:px-24 lg:w-2/4 md:w-full">
                         <div
@@ -43,7 +43,5 @@
 </template>
 
 <script>
- export default{
-
-    }
+export default {};
 </script>

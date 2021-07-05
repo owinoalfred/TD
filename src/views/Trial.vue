@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="flex fixed w-full items-center justify-between px-6 h-16 bg-white text-gray-700 border-b border-gray-200 z-10"
+    class="flex float w-full items-center justify-between px-6 h-16 bg-white text-gray-700 border-b border-gray-200 z-10"
   >
-    <div class="flex items-center">
+    <div class="flex w-7 items-center">
       <button class="mr-2" aria-label="Open Menu" @click="drawer">
         <svg
           fill="none"
@@ -17,78 +17,20 @@
         </svg>
       </button>
 
-
       <img src="../../public/favicon.png" alt="LOGOS" class="h-7 w-7" />
     </div>
-    <div class="flex items-center">
-      <div class="hidden  md:flex md:justify-between md:bg-transparent">
-        <button
-          title="Wishlist"
-          class="flex items-center p-3 font-medium mr-2 text-center bg-gray-300 rounded  hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
-        >
-          <svg
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            class="w-6 h-6 mr-2"
-          >
-            <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
-          </svg>
-          <span>Wishlist</span>
-        </button>
-        <button
-          class="flex items-center p-3 font-medium mr-2 text-center bg-gray-300 rounded  hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
-        >
-          <svg
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            class="h-6 w-6"
-          >
-            <path
-              d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-            ></path>
-          </svg>
-        </button>
-        <button
-          class="flex items-cente p-3 font-medium mr-2 text-center bg-gray-300 rounded  hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
-        >
-          <svg
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-            ></path>
-          </svg>
-        </button>
-        <a
-          rel="noopener"
-          href="https://www.owino.cc"
-          target="_blank"
-          title="Help me keep this site alive"
-          class="flex items-center  px-3 py-3 font-medium mr-2 text-center bg-orange-600 rounded text-white hover:bg-orange-700 focus:outline-none focus:bg-orange-400"
-        >
-          <img
-            class="mr-2 h-6 w-auto"
-            src=""
-            alt="Buy Me Coffee"
-          />
-          <p class="font-bold">
-            Buy me a Coffee
-          </p></a
-        >
+    <div class="items-center">
+      <div class="hidden space-x-20 md:flex pr-10 md:justify-between bg-white md:bg-transparent">
+        <div class="justify-center px-20 md:mr-1">
+          <h1 class="md:text-2xl font-thin">techy-man</h1>
+        </div>
+         <div class="flex mr-1 p-1 space-x-5">
+          <h4 class="text-lg font-normal">Main</h4>
+          <h4 class="text-lg font-normal">Services</h4>
+            <h4 class="text-lg  font-normal">Tools</h4>
+          <h4 class="text-lg font-normal">About</h4>
+          <h4 class="text-lg font-normal">FAQ.</h4>
+        </div>
       </div>
     </div>
 
@@ -120,11 +62,15 @@
         @click="isOpen = false"
         class="flex w-full items-center p-4 border-b"
       >
-        <img src="https://avatars.githubusercontent.com/u/59254825?v=4" alt="Logo" class="h-auto w-12 lg:w-20 mx-auto rounded-full" />
+        <img
+          src="https://avatars.githubusercontent.com/u/59254825?v=4"
+          alt="Logo"
+          class="h-auto w-12 lg:w-20 mx-auto rounded-full"
+        />
       </span>
       <span
         @click="isOpen = false"
-        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white "
+        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white"
         ><span class="mr-2">
           <svg
             fill="none"
@@ -144,7 +90,7 @@
       >
       <span
         @click="isOpen = true"
-        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white "
+        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white"
         ><span class="mr-2">
           <svg
             fill="none"
@@ -160,11 +106,11 @@
             ></path>
           </svg>
         </span>
-      <a href="/Forms">  <span>Request Service</span></a></span
+        <a href="/Forms"> <span>Request Service</span></a></span
       >
       <span
         @click="isOpen = True"
-        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white "
+        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white"
         ><span class="mr-2">
           <svg
             fill="none"
@@ -178,11 +124,11 @@
             <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
           </svg>
         </span>
-       <a href="/Gallery"> <span>See More</span></a></span
+        <a href="/Gallery"> <span>See More</span></a></span
       >
       <span
         @click="isOpen = True"
-        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white "
+        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white"
         ><span class="mr-2">
           <svg
             fill="none"
@@ -202,7 +148,7 @@
       >
       <span
         @click="isOpen = false"
-        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white "
+        class="flex items-center p-4 hover:bg-indigo-500 hover:text-white"
         ><span class="mr-2">
           <svg
             fill="none"
@@ -241,7 +187,7 @@
         </button>
         <a
           rel="noopener"
-          class="flex items-center p-4 bg-orange-700 text-white "
+          class="flex items-center p-4 bg-orange-700 text-white"
           href="https://www.owino.cc"
           target="_blank"
         >
@@ -265,13 +211,13 @@
 export default {
   data() {
     return {
-      isOpen: false
+      isOpen: false,
     };
   },
   methods: {
     drawer() {
       this.isOpen = !this.isOpen;
-    }
+    },
   },
   watch: {
     isOpen: {
@@ -281,14 +227,14 @@ export default {
           if (isOpen) document.body.style.setProperty("overflow", "hidden");
           else document.body.style.removeProperty("overflow");
         }
-      }
-    }
+      },
+    },
   },
   mounted() {
-    document.addEventListener("keydown", e => {
+    document.addEventListener("keydown", (e) => {
       if (e.keyCode == 27 && this.isOpen) this.isOpen = false;
     });
-  }
+  },
 };
 </script>
 

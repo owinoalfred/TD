@@ -1,8 +1,6 @@
 <template>
 
-    <Upper />
-    <Navy />
-     <Nav />
+    <Trial />
     <Bodydata />
     <Lowerbody />
     <Footer />
@@ -15,22 +13,19 @@
 import Bodydata from "@/components/Bodydata.vue";
 import Footer from "@/components/Footer.vue";
 import Lowerbody from "@/components/Lowerbody.vue";
-import Navy from "@/components/Navy.vue";
-import Upper from "@/components/Upper.vue";
-import Nav from "@/components/Nav.vue";
 import Down from "@/components/Down.vue";
+import Trial from "@/views/Trial.vue";
+
 
 
 export default {
   name: "Home",
   components: {
     Bodydata,
-    Nav,
     Footer,
-    Navy,
     Lowerbody,
-    Upper,
-    Down
+    Down,
+    Trial
   },
 };
 </script>
