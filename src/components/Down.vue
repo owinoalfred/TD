@@ -40,9 +40,9 @@
          Contact us
      </h1>
      <ul class="text-xs">
-         <li><a href=""><img class='h-5' src="../assets/img/facebook.png" alt=""></a></li>
-         <li><a href=""><img class='h-5' src="../assets/img/twitter.png" alt=""></a></li>
-         <li><a href=""><img class='h-5' src="../assets/img/whatsapp.png" alt=""></a></li>
+         <li><a href="https://facebook.com/owinoalfred"><img class='h-5' src="../assets/img/facebook.png" alt=""></a></li>
+         <li><a href="https://twitter.com/AlOweezie"><img class='h-5' src="../assets/img/twitter.png" alt=""></a></li>
+         <li><a href="https://wa.me/qr/IZICOX37N2I3E1"><img class='h-5' src="../assets/img/whatsapp.png" alt=""></a></li>
      </ul>
  </div>
 </div>
