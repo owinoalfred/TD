@@ -25,7 +25,7 @@
           <h1 class="md:text-2xl font-thin">techy-man</h1>
         </div>
          <div class="flex mr-1 p-1 space-x-5">
-          <h4 class="text-lg font-normal">Main</h4>
+          > <router-link to="/"><h4 class="text-lg font-normal hover:text-green-400">Main</h4></router-link>
           <h4 class="text-lg font-normal">Services</h4>
             <h4 class="text-lg  font-normal">Tools</h4>
           <h4 class="text-lg font-normal">About</h4>
