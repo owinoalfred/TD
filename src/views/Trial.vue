@@ -25,10 +25,11 @@
           <h1 class="md:text-2xl font-thin">techy-man</h1>
         </div>
          <div class="flex mr-1 p-1 space-x-5">
-          > <router-link to="/"><h4 class="text-lg font-normal hover:text-green-400">Main</h4></router-link>
+          > <router-link to="/"><h4 class="text-lg font-normal hover:text-green-200">Main</h4></router-link>
           <h4 class="text-lg font-normal">Services</h4>
+         <router-link to="/Pricing" > <h4 class="text-lg hover:text-green-200 font-normal">Prices</h4></router-link>
             <h4 class="text-lg  font-normal">Tools</h4>
-          <h4 class="text-lg font-normal">About</h4>
+          <router-link to="/About" ><h4 class="text-lg hover:text-green-200 font-normal">About</h4></router-link>
           <h4 class="text-lg font-normal">FAQ.</h4>
         </div>
       </div>
@@ -124,7 +125,7 @@
             <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
           </svg>
         </span>
-        <a href="/Gallery"> <span>See More</span></a></span
+        <a href="/Pricing"> <span>Prices</span></a></span
       >
       <span
         @click="isOpen = True"

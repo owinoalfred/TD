@@ -1,11 +1,9 @@
 <template>
 <main class="font-sans bg-white">
+<Trial />
 
- <Upper />
-    <Navy />
-     <Nav />
     <div>
-        <header class="bg-white shadow border-t-4 border-indigo-600">
+        <header class="bg-white shadow border-t-4 border-white">
             <div class="container mx-auto px-6 py-4">
                 <div class="flex items-center justify-between">
                     <div>
@@ -198,18 +196,20 @@
         </footer>
 
     </div>
-    <Footer />
+ <Footer />
+    <Down />
 </main>
 </template>
 
 <script>
+import Trial from "@/views/Trial.vue";
+import Footer from "@/components/Footer.vue";
+import Down from "@/components/Down.vue";
 
-import Footer from '@/components/Footer.vue'
-import Nav from '@/components/Nav.vue'
-import Upper from '@/components/Upper.vue'
 export default {
     components: {
-    Footer,Upper,Nav
+        Trial, Footer, Down
+
     }
 
 }
