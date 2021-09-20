@@ -1,6 +1,6 @@
 <template>
 
-<section class="text-gray-700 bg-gray-300 text-center">
+<section class="text-gray-700 bg-gray-100 text-center">
 
             <div class="container px-8 pt-10 mx-auto lg:w-30   lg:px-4 ">
                 <div class="">

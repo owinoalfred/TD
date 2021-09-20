@@ -1,7 +1,7 @@
  <template>
   <!-- eslint-disable max-len -->
   <div class="top-0 text-center ">
-<footer class="bg-gray-300 dark:bg-gray-800 pt-4 pb-8 xl:pt-8">
+<footer class="bg-gray-100 dark:bg-gray-800 pt-4 pb-8 xl:pt-8">
     <div class="max-w-screen-lg xl:max-w-screen-xl mx-auto px-4 sm:px-6 md:px-10 text-gray-400 dark:text-gray-300">
 
 
