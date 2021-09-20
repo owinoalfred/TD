@@ -41,7 +41,7 @@
         <section class="bg-white mt-20">
             <div class="max-w-2xl px-6 text-center mx-auto">
                 <h2 class="text-3xl font-semibold text-gray-800">Hi, <span class="bg-indigo-600 text-white rounded px-1">I’m Alfred</span> . Nice to meet you.</h2>
-                <p class="text-gray-600 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A aliquam veniam suscipit eaque iure, eligendi harum expedita cupiditate sequi, culpa autem! Quaerat ex fugit iste suscipit reiciendis, accusamus ipsum quae.</p>
+                <p class="text-gray-600 mt-4">Alfred is a developer from Uganda who likes to code and learn about new stuff. I love python and javascript since they create cool stuff. I create websites and this is the reason I put up this site, to tryr and find those with the same passion and try to raise a few bucks from doing what I love. please call me for any gigs. </p>
 
                 <div class="flex items-end justify-center mt-16 rounded-full">
                           <img src="https://avatars.githubusercontent.com/u/59254825?v=4" class="rounded-full h-100 w-100 flex items-center justify-center" alt="">
@@ -53,7 +53,7 @@
             <div class="max-w-5xl px-6 mx-auto text-center">
                 <h2 class="text-2xl font-semibold text-white">About Me</h2>
 
-                <p class="text-gray-400 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim cursus lorem ac. Orci maecenas praesent arcu eget orci est orci nullam. Leo purus est pellentesque massa at tortor, est. Aliquet pulvinar a mattis sagittis. Suspendisse porta id elementum, massa.</p>
+                <p class="text-gray-400 mt-4">Started off with simple HTML many years ago but since I dint have the resources to go further I kind of put it on hold. I re-thought about coding and started to do alot after finding the right tools and resources, hopefully i could be the techy-man you need/</p>
             </div>
         </section>
 
@@ -64,29 +64,29 @@
                 <div class="flex flex-col items-center justify-center mt-6">
                     <a class="max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="#">
                         <div class="flex items-center justify-between px-4 py-2">
-                            <h3 class="text-lg font-medium text-gray-700">Easy, Free Laravel CI Using GitHub Actions</h3>
-                            <span class="block text-gray-600 font-light text-sm">20 Jan 2020</span>
+                            <h3 class="text-lg font-medium text-gray-700">handwritten code on paper explaining a few concepts.</h3>
+                            <span class="block text-gray-600 font-light text-sm">30 Dec 2021</span>
                         </div>
                     </a>
 
                     <a class="mt-8 max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="#">
                         <div class="flex items-center justify-between px-4 py-2">
-                            <h3 class="text-lg font-medium text-gray-700">Pest: a delightful PHP Testing Framework</h3>
-                            <span class="block text-gray-600 font-light text-sm">29 Oct 2019</span>
+                            <h3 class="text-lg font-medium text-gray-700">Videos dropping soon too.</h3>
+                            <span class="block text-gray-600 font-light text-sm">30 Dec 2021</span>
                         </div>
                     </a>
 
                     <a class="mt-8 max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="#">
                         <div class="flex items-center justify-between px-4 py-2">
-                            <h3 class="text-lg font-medium text-gray-700">Using inline SVGs in Vue components</h3>
-                            <span class="block text-gray-600 font-light text-sm">15 Oct 2019</span>
+                            <h3 class="text-lg font-medium text-gray-700">Free Vue couses coming soon</h3>
+                            <span class="block text-gray-600 font-light text-sm">30 Dec 2021</span>
                         </div>
                     </a>
 
                     <a class="mt-8 max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="#">
                         <div class="flex items-center justify-between px-4 py-2">
-                            <h3 class="text-lg font-medium text-gray-700">Acceptance Testing Laravel & VueJs Apps with Codeception</h3>
-                            <span class="block text-gray-600 font-light text-sm">3 Oct 2019</span>
+                            <h3 class="text-lg font-medium text-gray-700">options of backend that go with Vuejs</h3>
+                            <span class="block text-gray-600 font-light text-sm">30 Dec 2021</span>
                         </div>
                     </a>
                 </div>
