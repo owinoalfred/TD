@@ -1,10 +1,11 @@
 <template>
 <div>
+
   <Upper />
     <Navy />
      <Nav />
     <h1>
-        Services coming soon
+        Services about to come
     </h1>
     <Footer />
 </div>
