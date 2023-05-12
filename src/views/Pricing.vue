@@ -1,5 +1,6 @@
 <template>
   <div>
+<h1>vav bar</h1>
     <Trial />
     <Prices />
     <Footer />
