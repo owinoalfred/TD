@@ -10,7 +10,7 @@
     <Down />
 
 </template>
-
+//creation is key
 <script>
 // @ is an alias to /src
 import Footer from "@/components/Footer.vue";
