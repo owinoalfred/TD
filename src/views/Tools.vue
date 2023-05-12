@@ -4,7 +4,7 @@
     <Navy />
      <Nav />
     <h1>
-        Tools coming soon
+        Tools also coming soon
     </h1>
     <Footer />
 </div>
